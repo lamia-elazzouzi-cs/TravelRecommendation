@@ -1,0 +1,49 @@
+body {
+    background-image: url("./images/felix_besombes_background.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    position: absolute;
+    color: white;
+}
+
+/* Basic CSS for the navigation bar */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:50px;
+
+}
+
+nav {
+    list-style-type: none;
+    /* padding: 0; */
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/**/
+#mainContent{
+    padding-top: 50px;
+}
