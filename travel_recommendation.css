@@ -6,7 +6,7 @@ body {
     color: white;
 }
 
-/* Basic CSS for the navigation bar */
+/* CSS for the navigation bar */
 
 * {
     margin: 0;
@@ -19,14 +19,14 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height:50px;
+    height: 50px;
 
 }
 
 nav {
     list-style-type: none;
     /* padding: 0; */
-    position: fixed; 
+    position: fixed;
     top: 0;
     width: 100%;
     background-color: white;
@@ -43,7 +43,43 @@ nav a {
     font-weight: bold;
 }
 
-/**/
-#mainContent{
-    padding-top: 50px;
+/* CSS for the main page content */
+
+#mainContent {
+    padding-top: 70px;
+}
+
+
+/* Create column display for the home page */
+.column {
+    float: left;
+    padding: 10px;
+
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Styling the destinations */
+.destImage {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit:cover;
+}
+
+.visitBtn{
+    float: right;
 }
